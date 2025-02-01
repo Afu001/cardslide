@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background: linear-gradient(45deg, #bde0fe, #bde0fe);
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}body {
+  margin: 0;
+  background: linear-gradient(45deg, #d2efff, #ffdce9); /* Light blue gradient */
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* For specific titles, use the soft pink */
+.title {
+  color: #ffafcc; /* Soft pink for title */
+  font-weight: bold;
+}
+
+/* For content text, use the light purple */
+.content {
+  color: #cdb4db; /* Light purple for content text */
+}

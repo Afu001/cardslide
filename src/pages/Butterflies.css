@@ -1,0 +1,37 @@
+.butterfly-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  
+  .butterfly {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('./butterflypng.png') no-repeat center/contain;
+    animation: fly 10s infinite linear;
+    opacity: 0.8;
+  }
+  
+  /* Generate multiple butterflies with different sizes and positions */
+  .butterfly:nth-child(1) { left: 5%; animation-duration: 8s; }
+  .butterfly:nth-child(2) { left: 15%; animation-duration: 10s; }
+  .butterfly:nth-child(3) { left: 25%; animation-duration: 12s; }
+  .butterfly:nth-child(4) { left: 35%; animation-duration: 9s; }
+  .butterfly:nth-child(5) { left: 45%; animation-duration: 11s; }
+  .butterfly:nth-child(6) { left: 55%; animation-duration: 13s; }
+  .butterfly:nth-child(7) { left: 65%; animation-duration: 7s; }
+  .butterfly:nth-child(8) { left: 75%; animation-duration: 10s; }
+  .butterfly:nth-child(9) { left: 85%; animation-duration: 12s; }
+  .butterfly:nth-child(10) { left: 95%; animation-duration: 8s; }
+  
+  @keyframes fly {
+    0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+    50% { transform: translateY(50vh) rotate(10deg); }
+    100% { transform: translateY(-10vh) rotate(-10deg); opacity: 0; }
+  }
+  
