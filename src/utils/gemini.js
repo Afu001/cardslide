@@ -1,6 +1,6 @@
 const GEMINI_API_KEY = 'AIzaSyD_rFjX_j2IJ-rodZ1UW4EsNqM4UdPG2pA';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
-const MAX_REQUESTS = 1;
+const MAX_REQUESTS = 5;
 const REQUEST_INTERVAL = 1000; // 1 request per second
 const RESET_TIME = 120000; // 2 minutes in milliseconds
 
